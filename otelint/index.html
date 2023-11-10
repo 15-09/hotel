@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INT OTEL İNTERNET</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+
+</head>
+<body>
+    <main>
+        <form id="login-form">
+            <button id="guest">Ziyaretçi Modu</button>
+            <button id="staff">Çalışan Modu</button>
+            <button id="mtpage">Toplantı Modu</button>
+
+            <h1>OTEL İNTERNETE BAĞLANMA SİTESİ (ZİYARETÇİ MODU)</h1>
+          
+            <label for="name">Adınız:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="surname">Soyadınız:</label>
+            <input type="text" id="surname" name="surname" required>
+
+            <label for="birthdate">Doğum Gününüz:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+            
+            <label for="surname">T.C. Kimlik Numaranız:</label>
+            <input type="text" id="identification" name="identification" required>
+
+            <label for="room">Oda Numarası:</label>
+            <input type="text" id="room" name="room" required>
+
+            <button type="submit">Oturum Aç</button>
+
+            
+
+            <h4><span class="copy-symbol">&copy;</span> 2023 Int Yazılım. Tüm Hakları Saklıdır.</h4>
+        </form>
+        <p id="message" class="hidden"></p>
+        <p id="messages" class="hidden success"></p>
+    </main>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

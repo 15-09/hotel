@@ -1,0 +1,71 @@
+/* Genel sayfa tasarımı */
+body {
+    color: red;
+    font-family: Arial, sans-serif;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+h1{
+    color: #ccc;
+}
+
+h4{
+    color: #ccc;
+}
+
+/* Form öğeleri */
+form {
+    margin-bottom: 15px;
+}
+
+label {
+    color: #ccc;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    color: #ccc;
+    background-color: black;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.success{
+    color: green;
+    font-weight: bold;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+}
